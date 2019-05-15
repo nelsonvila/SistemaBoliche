@@ -18,8 +18,6 @@ class CrearProducto extends Migration
             $table->string('descripcion');
             $table->string('codigo')->unique();
             $table->string('precio');
-            $table->string('costo');
-            $table->integer('stock');
             $table->timestamps();
         });
     }
