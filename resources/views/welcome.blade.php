@@ -86,7 +86,7 @@
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Usuarios </a>
-                    <a href="https://laracasts.com">Productos</a>
+                    <a href="{{ url('/productos') }}">Productos</a>
                     <a href="https://laravel-news.com">Stock</a>
                     <a href="https://blog.laravel.com">Facturacion</a>
                     <a href="https://nova.laravel.com">Venta</a>

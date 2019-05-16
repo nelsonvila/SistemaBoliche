@@ -24,11 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $productos = Producto::all();
-        $mensaje= 'Este es un mensaje';
-//return $productos;
-        return view('productos')
-            ->with('productos', $productos)
-            ->with('pepito', $mensaje);
+
+        return view('welcome');
     }
+
 }
